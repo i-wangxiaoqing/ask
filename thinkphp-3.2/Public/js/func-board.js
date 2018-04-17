@@ -1,5 +1,6 @@
 var QiangdaRunning = false;
 $("#but0").click(function() {
+	alert(111)
 	$("#Delay").val(Number($("#Delay").val()));
 	$("#TimeOut").val(Number($("#TimeOut").val()));
 	$("#but0").html("正在发送请求");
@@ -7,7 +8,7 @@ $("#but0").click(function() {
 	var timeout=$("#TimeOut").val();
 	$.ajax({
 		type: 'POST',
-		url: 'newqd.php',
+		url: '/tp/public/php/newqd.php',
 		data: {
 			'Delay': delay,
 			'TimeOut': timeout

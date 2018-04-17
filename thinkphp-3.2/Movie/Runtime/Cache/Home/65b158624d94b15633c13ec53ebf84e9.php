@@ -1,41 +1,4 @@
-<?php
-	function auth($config) {
-		$username = $_SERVER['PHP_AUTH_USER'];
-		$password = $_SERVER['PHP_AUTH_PW'];
-		if ($config['adminuser'] == $username && $config['adminpass'] == md5($password)) return true;
-		else return false;
-	}
-	$config = json_decode(file_get_contents("/tp/public/db/config.db"),true);
-	$auth = auth($config);
-	if (!$auth) {
-		header('WWW-Authenticate: Basic realm="Please Login"');
-	}
-	else {
-		//处理操作
-		switch ($_GET['action']) {
-			case 'deluser' :
-				foreach ($config['user'] as $name => $pass) {
-					if ($name == $_GET['username']) unset($config['user'][$name]);
-				}
-				file_put_contents('/tp/public/db/config.db',json_encode($config));
-				break;
-			case 'adduser' :
-				$username = $_GET['username'];
-				if (strpos($username,"\t") === false && strpos($username,"\n") === false) {
-					$config['user'][$username] = $_GET['password'];
-					file_put_contents('/tp/public/db/config.db',json_encode($config));
-				}
-				break;
-			case 'passwd' :
-				if ($_GET['password1'] == $_GET['password2']) {
-					$config['adminpass'] = md5($_GET['password2']);
-					file_put_contents('/tp/public/db/config.db',json_encode($config));
-				}
-				else $msg = "密码校验不匹配。";
-				break;
-		}
-	}
-?>
+<?php if (!defined('THINK_PATH')) exit(); function auth($config) { $username = $_SERVER['PHP_AUTH_USER']; $password = $_SERVER['PHP_AUTH_PW']; if ($config['adminuser'] == $username && $config['adminpass'] == md5($password)) return true; else return false; } $config = json_decode(file_get_contents("/tp/public/db/config.db"),true); $auth = auth($config); if (!$auth) { header('WWW-Authenticate: Basic realm="Please Login"'); } else { switch ($_GET['action']) { case 'deluser' : foreach ($config['user'] as $name => $pass) { if ($name == $_GET['username']) unset($config['user'][$name]); } file_put_contents('/tp/public/db/config.db',json_encode($config)); break; case 'adduser' : $username = $_GET['username']; if (strpos($username,"\t") === false && strpos($username,"\n") === false) { $config['user'][$username] = $_GET['password']; file_put_contents('/tp/public/db/config.db',json_encode($config)); } break; case 'passwd' : if ($_GET['password1'] == $_GET['password2']) { $config['adminpass'] = md5($_GET['password2']); file_put_contents('/tp/public/db/config.db',json_encode($config)); } else $msg = "密码校验不匹配。"; break; } } ?>
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
@@ -66,19 +29,14 @@
 		<td>操作</td>
 	</tr>
 	<?php
-		if ($auth) {
-			$usertable = $config['user'];
-			foreach ($usertable as $name => $pass) {
-				?><tr>
+ if ($auth) { $usertable = $config['user']; foreach ($usertable as $name => $pass) { ?><tr>
 					<td><?php echo htmlspecialchars($name); ?></td>
 					<td><a href='javascript:alert("<?php echo $pass; ?>")'>显示密码</a></td>
 					<td>
 						<a href="?action=deluser&username=<?php echo $name; ?>">删除</a>
 					</td>
 				</tr><?php
-			}
-		}
-	?>
+ } } ?>
 	</table>
 	<hr>
 	<h2>管理员密码修改</h2>
