@@ -1,0 +1,353 @@
+[ 2018-04-17T21:36:53+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.251014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: rootname F:\kefangwen\hongsanzu\thinkphp-3.2\Movie\Runtime\Cache\Admin\eb6a6f2e91c421f3414e40428ef2c798.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.271016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.051003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.051003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2018-04-17T21:36:58+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011001s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `movie`
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.008001s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `movie` 
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.007000s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.354020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.354020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-17T21:38:00+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: rootname F:\kefangwen\hongsanzu\thinkphp-3.2\Movie\Runtime\Cache\Admin\eb6a6f2e91c421f3414e40428ef2c798.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-17T21:38:00+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.009000s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `movie`
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.013000s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `movie` 
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.009001s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T21:38:11+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.008001s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `movie`
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.008000s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `movie` 
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.064004s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-17T21:38:15+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/word/wordshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM word as a [ RunTime:0.007000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM word as a
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM word as a left join user as b on a.user_id=b.user_id left join movie as c on a.movie_id=c.movie_id   [ RunTime:0.039002s ]
+ERR: 1146:Table 'hszmovie.word' doesn't exist
+ [ SQL语句 ] : SELECT * FROM word as a left join user as b on a.user_id=b.user_id left join movie as c on a.movie_id=c.movie_id  
+SQL: SELECT COUNT(*) AS tp_count FROM word as a LIMIT 1   [ RunTime:0.009001s ]
+ERR: 1146:Table 'hszmovie.word' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM word as a LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T21:38:18+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T21:38:21+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/AdminManage/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `admin`  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.026002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T21:38:26+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/AdminManage/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `admin`  [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.020001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T21:38:31+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T21:38:36+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/word/wordshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM word as a [ RunTime:0.007000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM word as a
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM word as a left join user as b on a.user_id=b.user_id left join movie as c on a.movie_id=c.movie_id   [ RunTime:0.008001s ]
+ERR: 1146:Table 'hszmovie.word' doesn't exist
+ [ SQL语句 ] : SELECT * FROM word as a left join user as b on a.user_id=b.user_id left join movie as c on a.movie_id=c.movie_id  
+SQL: SELECT COUNT(*) AS tp_count FROM word as a LIMIT 1   [ RunTime:0.007000s ]
+ERR: 1146:Table 'hszmovie.word' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM word as a LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T21:38:38+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.019001s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `movie`
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.011000s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `movie` 
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.015001s ]
+ERR: 1146:Table 'hszmovie.movie' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T21:38:51+08:00 ] ::1 /hongsanzu/thinkphp-3.2/admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\kefangwen\hongsanzu\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.012001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

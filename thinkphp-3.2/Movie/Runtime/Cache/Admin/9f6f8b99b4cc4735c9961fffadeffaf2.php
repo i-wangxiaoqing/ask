@@ -1,0 +1,125 @@
+<?php if (!defined('THINK_PATH')) exit();?><!--  -->
+<style>
+	img{
+		width: 200px;
+		height: 100px;
+	}
+</style>
+<body>
+<article class="page-container">
+	<?php if(is_array($userInfo)): $i = 0; $__LIST__ = $userInfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><form class="form form-horizontal" id="form-admin-add" action="updateMovie" method="post" enctype="multipart/form-data">
+			<div class="row cl">
+				<input class="input-text" value="<?php echo ($item["movie_id"]); ?>" placeholder="" id="num" name="num" type="hidden">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名称：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" value="<?php echo ($item["movie_name"]); ?>" placeholder="" id="name" name="name">
+				</div>
+			</div>
+			
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>更新头像：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="hidden" name="MAX_FILE_SIZE" value="200000">
+					<input type="file" name="file"/>
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>图片位置：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["palcetype"]); ?>"  placeholder="" id="palcetype" name="palcetype">
+				</div>
+				</div>
+			</div>
+				<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题类型：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_type"]); ?>"  placeholder="" id="type" name="type">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题内容：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_introduce"]); ?>"  placeholder="" id="introduce" name="introduce">
+				</div>
+			</div>
+				<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>上映日期：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_date"]); ?>"  placeholder="" id="date" name="date">
+				</div>
+			</div>
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input name="sub" type="submit" class="btn btn-success radius size-L" value="&nbsp;提&nbsp;&nbsp;&nbsp;&nbsp;交&nbsp;">
+				</div>
+			</div>
+		</form><?php endforeach; endif; else: echo "" ;endif; ?>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../../Public/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../../Public/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../../Public/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+/*$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").validate({
+		rules:{
+			adminName:{
+				required:true,
+				minlength:4,
+				maxlength:16
+			},
+			password:{
+				required:true,
+			},
+			password2:{
+				required:true,
+				equalTo: "#password"
+			},
+			sex:{
+				required:true,
+			},
+			phone:{
+				required:true,
+				isPhone:true,
+			},
+			email:{
+				required:true,
+				email:true,
+			},
+			adminRole:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				type: 'post',
+				url: "xxxxxxx" ,
+				success: function(data){
+					layer.msg('添加成功!',{icon:1,time:1000});
+				},
+                error: function(XmlHttpRequest, textStatus, errorThrown){
+					layer.msg('error!',{icon:1,time:1000});
+				}
+			});
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});*/
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

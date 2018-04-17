@@ -1,0 +1,25 @@
+[ 2017-09-12T18:22:25+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.067685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067866s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014557s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.027761s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.012982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.586923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.587104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054930s ]
+

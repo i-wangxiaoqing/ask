@@ -1,0 +1,2028 @@
+[ 2017-09-10T13:23:07+08:00 ] ::1 /thinkphp-3.2/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: rootname D:\HTML5\thinkphp-3.2\Movie\Runtime\Cache\Admin\eb6a6f2e91c421f3414e40428ef2c798.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004474s ]
+
+[ 2017-09-10T13:23:07+08:00 ] ::1 /thinkphp-3.2/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003692s ]
+ERR: 非法操作:welcome
+
+[ 2017-09-10T13:23:17+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012862s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.027662s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004834s ]
+
+[ 2017-09-10T13:24:25+08:00 ] ::1 /thinkphp-3.2/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: rootname D:\HTML5\thinkphp-3.2\Movie\Runtime\Cache\Admin\eb6a6f2e91c421f3414e40428ef2c798.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006573s ]
+
+[ 2017-09-10T13:24:25+08:00 ] ::1 /thinkphp-3.2/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 非法操作:welcome
+
+[ 2017-09-10T13:24:28+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012167s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.024127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.009944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003020s ]
+
+[ 2017-09-10T13:24:37+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011039s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 6  [ RunTime:0.009639s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002156s ]
+
+[ 2017-09-10T13:29:40+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006420s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013135s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 16  [ RunTime:0.013598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003999s ]
+
+[ 2017-09-10T13:32:34+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004339s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.021295s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 16  [ RunTime:0.016221s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2017-09-10T13:33:18+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.021284s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='冰河世纪4',`movie_photo`='59b4ce9e24c44.jpg',`movie_type`='1',`palcetype`=1,`movie_introduce`='《冰川时代4》电影由史蒂夫·马蒂诺执导，约翰·雷吉扎莫、雷·罗马诺、奎恩·拉提法、詹妮弗·洛佩兹、西恩·威廉·斯科特和克里斯·韦奇共同献声配音，于2012年7月27日在中国上映。该片讲述地球因为冰山上的一颗松果引发的蝴蝶效应，而分裂成了七大洲四大洋，史前动物曼尼、希德和迭戈只好重新踏上全新的大冒险之旅。它们途中遇上希德的怪姥姥和一群疯狂的海盗，为它们的冒险之旅增添不少的麻烦。',`movie_date`='2016-12-1' WHERE ( movie_id=16 ) [ RunTime:0.025649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006497s ]
+
+[ 2017-09-10T13:33:18+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006823s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.030689s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.071899s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.034678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011915s ]
+
+[ 2017-09-10T13:37:08+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.015961s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 17  [ RunTime:0.014387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002451s ]
+
+[ 2017-09-10T13:40:01+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014775s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Maximum Ride',`movie_photo`='59b4d031ac4b2.jpg',`movie_type`='2',`palcetype`=1,`movie_introduce`='Six children genetically cross-bred with avian DNA, complete with wings, take flight around the country to discover their origins.',`movie_date`='2014-12-1' WHERE ( movie_id=17 ) [ RunTime:0.015356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004275s ]
+
+[ 2017-09-10T13:40:02+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011838s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.021093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.011082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003996s ]
+
+[ 2017-09-10T13:41:03+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007850s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.015439s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 18  [ RunTime:0.018433s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003614s ]
+
+[ 2017-09-10T13:41:32+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.021873s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='HUSH',`movie_photo`='59b4d08cb1f89.jpg',`movie_type`='3',`palcetype`=2,`movie_introduce`='在一个远离城市喧嚣的寂静所在，迷离中央的木屋中，居住着美丽的聋哑女作家麦蒂·杨（凯特·西格尔 Kate Siegel 饰）。她的世界寂静无声，而在写作时心底又会有个声音充满她那静谧的内心世界。当此时的写作陷入僵局时，麦蒂起身去厨房收拾餐具，就在此时不久前才刚见过的好友莎拉（Samantha Sloyan 饰）残忍杀害。可惜任凭莎拉百般呼救，却无法引起麦迪的注意。一无所知的麦蒂回到电脑前继续工作，而那个男人则悄悄潜入室内。这时麦蒂突然收到从自己的手机上发来的短信，里面则是蒙面男子用手机拍下来的照片。 当这个女子意识到危险降临之际，她已成为任凭猎人玩弄的笼中之鸟……',`movie_date`='2016-8-3' WHERE ( movie_id=18 ) [ RunTime:0.014054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003129s ]
+
+[ 2017-09-10T13:41:33+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.015173s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.043393s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.012591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004205s ]
+
+[ 2017-09-10T13:43:07+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009080s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012695s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 24  [ RunTime:0.020566s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002615s ]
+
+[ 2017-09-10T13:43:37+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.022576s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='独立日：卷土重来',`movie_photo`='59b4d1090fc5d.jpg',`movie_type`='1',`palcetype`=1,`movie_introduce`='《独立日：卷土重来》是由二十世纪福斯电影公司 出品的科幻动作片，由罗兰·艾默里奇执导，利亚姆·海姆斯沃斯、杰西·厄舍、麦卡·梦露、杰夫·高布伦、夏洛特·甘斯布、比尔·普尔曼、雪拉·渥德联合主演。该片故事发生在《独立日》20年后。讲述了外星人带着先进的武器再次入侵地球，几位勇敢的年轻人，他们挺身而出，再一次为人类生存而战斗。该片于2016年6月24日在美国、中国大陆同步上映。',`movie_date`='2016-5-4' WHERE ( movie_id=24 ) [ RunTime:0.014026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007675s ]
+
+[ 2017-09-10T13:43:37+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005770s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.023950s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.029749s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.011187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008733s ]
+
+[ 2017-09-10T13:44:29+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006327s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014575s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 26  [ RunTime:0.010544s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026659s ]
+
+[ 2017-09-10T13:44:57+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004559s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011792s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='乌龙特工',`movie_photo`='59b4d1593fcac.jpg',`movie_type`='2',`palcetype`=1,`movie_introduce`='会计师卡尔文（凯文·哈特 Kevin Hart 饰）在高中时代曾是学校的体育明星，他热心张罗高中同学聚会，于是在Facebook上联系到了老同学鲍勃（道恩·强森 Dwayne Johnson 饰），他没想到这个在高中时常受欺负的老同学现在已经是CIA的职业杀手，而他也万万没想到自己将被卷入制止军事秘密泄露的任务中。',`movie_date`='2016-06-17' WHERE ( movie_id=26 ) [ RunTime:0.012665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004339s ]
+
+[ 2017-09-10T13:44:57+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004428s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011940s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.021560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.009238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006493s ]
+
+[ 2017-09-10T13:46:20+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007189s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.022048s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 27  [ RunTime:0.017793s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2017-09-10T13:47:07+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014968s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='泰山归来',`movie_photo`='59b4d1dba34b8.jpg',`movie_type`='2',`palcetype`=1,`movie_introduce`='19世纪80年代，泰山（亚历山大·斯卡斯加德饰）已经离开了刚果丛林十年了，他与心爱的简·波特（玛歌特·罗比饰）在维多利亚女王时代的英国伦敦生活。看似平静的城市生活对泰山来说并非真的自在，甚至感到窒息，身着考究的礼服，住在豪宅里，却找不到家的感觉。一次，他以英国议会贸易大使的身份重新回到刚果，但这次派遣实际上是一次比利时人里昂·罗姆（克里斯托弗·瓦尔兹饰）的阴谋。泰山、珍以及他的朋友们都陷入了危险，但丛林是泰山的天下，他开始重新飞檐走壁，拯救爱人和朋友。',`movie_date`='2016年7月19日' WHERE ( movie_id=27 ) [ RunTime:0.016691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008969s ]
+
+[ 2017-09-10T13:47:08+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006062s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012035s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.030173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.015049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005580s ]
+
+[ 2017-09-10T13:48:44+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009956s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010742s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 19  [ RunTime:0.009879s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008854s ]
+
+[ 2017-09-10T13:49:03+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004522s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010568s ]
+NOTIC: [2] finfo_file(): Empty filename or path D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+
+[ 2017-09-10T13:49:19+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003812s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012751s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Keep watching',`movie_photo`='59b4d25fcfeab.jpg',`movie_type`='3',`palcetype`=2,`movie_introduce`='电影讲述了在纽约一幢热闹的公寓大楼里，有一群宠物，每天主人出门后、回家前这里就变成了它们的乐园：有的和其他宠物一起出去玩；有的聚在一起交流主人的糗事；还有的在不停捯饬自己的外貌，使自己看上去更可爱以便从主人那里要来更多的零食……',`movie_date`='2015-5-1' WHERE ( movie_id=19 ) [ RunTime:0.015695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004508s ]
+
+[ 2017-09-10T13:49:20+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010854s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.024048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.011836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007018s ]
+
+[ 2017-09-10T13:49:43+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006337s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012450s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 22  [ RunTime:0.010808s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2017-09-10T13:50:57+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014748s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Dirty Grandpa',`movie_photo`='59b4d2c183f4f.jpg',`movie_type`='1',`palcetype`=2,`movie_introduce`='杰森（扎克·埃夫隆饰）是位一板一眼的准新郎，过着无趣保守的生活，被重度控制狂未婚妻使唤，结婚前夕，他去陪刚丧偶的爷爷迪克（罗伯特·德尼罗饰）度假散心，爷爷生性好色，带着保守的孙子踏上了一段啼笑皆非的风流旅程。',`movie_date`='2016-01-22' WHERE ( movie_id=22 ) [ RunTime:0.015250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008372s ]
+
+[ 2017-09-10T13:50:58+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007765s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.015109s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.040194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015956s ]
+
+[ 2017-09-10T14:07:52+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006740s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012822s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 23  [ RunTime:0.021512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005714s ]
+
+[ 2017-09-10T14:08:29+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.017010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Barbershop',`movie_photo`='59b4d6dd3d77e.jpg',`movie_type`='2',`palcetype`=2,`movie_introduce`='加尔文（艾斯库伯）从父亲那里继承到一间位于芝加哥南部的理发店，这事他父亲奋斗的成果，但在他严厉看来这间铺子一钱不值，只是个负担，是在浪费他的时间。在将铺子卖给地方上的投机商后，加尔文才意识到父亲的远见卓识，并开始为卖掉铺子感到后悔。',`movie_date`='2002-09-13' WHERE ( movie_id=23 ) [ RunTime:0.015831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004286s ]
+
+[ 2017-09-10T14:08:29+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003850s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.028867s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.026392s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.012098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006396s ]
+
+[ 2017-09-10T14:09:19+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006228s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.020543s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 28  [ RunTime:0.016885s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008017s ]
+
+[ 2017-09-10T14:09:54+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.029748s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Billy Lynn\'s Long Halftime Walk',`movie_photo`='59b4d73298236.jpg',`movie_type`='2',`palcetype`=2,`movie_introduce`='伊拉克战争时期，来自美国德州的19岁技术兵比利·林恩（乔·阿尔文 Joe Alwyn 饰）因为一段偶然拍摄的视频而家喻户晓。那是一次规模不大却激烈非常的遭遇战，战斗中林恩所在的B班班长（范·迪塞尔 Vin Diesel 饰）遭到当地武装分子的伏击和劫持，而林恩为了营救班长不惜铤而走险冲锋陷阵。视频公布于世让他成为全美民众所崇拜的英雄，然而却鲜有人理解他和战友们所经历的一切。为了安葬班长，B班得到了短暂的休假，因此他们得以受邀参加一场在德州举行的橄榄球比赛。林恩的姐姐因某事件深感愧疚，她希望弟弟能借此机缘回归普通生活。而周围的经纪人、球迷、大老板、普通民众则对战争、卫国、士兵有着各种各样想当然的理解。球场上的庆典盛大开幕，林恩和战友们的心却愈加沉重与焦躁……',`movie_date`='2016-11-11' WHERE ( movie_id=28 ) [ RunTime:0.034984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003117s ]
+
+[ 2017-09-10T14:09:55+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.021502s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.073693s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.028674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003954s ]
+
+[ 2017-09-10T14:10:31+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008755s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014248s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 29  [ RunTime:0.011582s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008504s ]
+
+[ 2017-09-10T14:11:04+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003963s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011586s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Nine Lives',`movie_photo`='59b4d778ccb76.jpg',`movie_type`='2',`palcetype`=2,`movie_introduce`='商业精英的汤姆·布兰德（凯文·史派西 Kevin Spacey 饰）是彻头彻尾的工作狂，却时常忽视家庭与亲情。女儿丽贝卡（玛丽娜·维丝曼 Malina Weissman 饰）生日这一天，因公迟到的他匆忙赶去宠物店，为女儿买了一只她喜欢的喵星人，却被宠物店老板（克里斯托弗·沃肯 Christopher Walken 饰）用魔法将他的躯体困在一只宠物猫体内。被困于宠物猫的汤姆大声呼救，然而这对于听不懂猫语的人类只是“喵喵”的叫声。这时沃肯出现在它的笼前，告知它自己是“猫语者”，但沃肯此次并非来救他，只是让他思考自己被变成猫的原因。绝望的史派西惊呼“我讨厌猫”，却得知猫的生命很短暂，很有可能一辈子被困在这里，而回归原型的条件则是要做回一个称职的老公和父亲。随后便发生了一系列令人啼笑皆非的故事。',`movie_date`='2016-09-09' WHERE ( movie_id=29 ) [ RunTime:0.014233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004264s ]
+
+[ 2017-09-10T14:11:05+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004017s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014760s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.024930s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.011453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005637s ]
+
+[ 2017-09-10T14:12:10+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007127s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013864s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 6  [ RunTime:0.010050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005179s ]
+
+[ 2017-09-10T14:12:14+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012884s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.019006s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 6  [ RunTime:0.031583s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006403s ]
+
+[ 2017-09-10T14:13:00+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005672s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.021614s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='The Boss',`movie_photo`='59b4d7ecc42dc.jpg',`movie_type`='1',`palcetype`=4,`movie_introduce`='A titan of industry is sent to prison after she\'s caught insider trading. When she emerges ready to rebrand herself as America\'s latest sweetheart, not everyone she screwed over is so quick to forgive and forget.',`movie_date`='2016-10-06' WHERE ( movie_id=6 ) [ RunTime:0.095526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003707s ]
+
+[ 2017-09-10T14:13:01+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004310s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.017690s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='The Boss',`movie_photo`='59b4d7ed3ad6e.jpg',`movie_type`='1',`palcetype`=4,`movie_introduce`='A titan of industry is sent to prison after she\'s caught insider trading. When she emerges ready to rebrand herself as America\'s latest sweetheart, not everyone she screwed over is so quick to forgive and forget.',`movie_date`='2016-10-06' WHERE ( movie_id=6 ) [ RunTime:0.012478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004810s ]
+
+[ 2017-09-10T14:13:01+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004510s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.016633s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.039759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.014554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004918s ]
+
+[ 2017-09-10T14:17:24+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011480s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012720s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 7  [ RunTime:0.021070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013090s ]
+
+[ 2017-09-10T14:18:59+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.030786s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='佐州自救兄弟2',`movie_photo`='59b4d95376d91.jpg',`movie_type`='1',`palcetype`=4,`movie_introduce`='影片继续讲述警探佩顿和他的废柴妹夫破案的故事，不过这次他从佐州的亚特兰大飞往弗罗里达州的迈阿密勇斗毒贩。影片于2016年1月15日北美上映。',`movie_date`='2016-01-05' WHERE ( movie_id=7 ) [ RunTime:0.013078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003404s ]
+
+[ 2017-09-10T14:19:00+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014158s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.037437s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.036964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004621s ]
+
+[ 2017-09-10T14:19:41+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009688s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010458s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 8  [ RunTime:0.009978s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000782s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004280s ]
+
+[ 2017-09-10T14:20:54+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004182s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010409s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='The Neon Demon',`movie_photo`='59b4d9c67bcd3.jpg',`movie_type`='1',`palcetype`=4,`movie_introduce`='美丽女孩杰茜（艾丽·范宁 Elle Fanning 饰）是一个只身独闯洛杉矶的年轻女模特，她初次涉足花花世界，看起来懵懂无知，人畜无害。亲和的化妆师茹比（吉娜·马隆 Jena Malone 饰）最先接近她，并将其介绍给两个小有名气的模特琪琪（贝拉·希思科特 Bella Heathcote 饰）与莎拉（阿比·丽 Abbey Lee 饰）。杰茜如同一块蕴藏着莫大价值的璞玉，她很快得到了业内有识之士的赏识，前路充满光芒。她的美是上天的恩赐，她的美却也成为他人嫉妒乃至急于毁灭的脆弱之花。  　　T台之上，霓虹交错，杰茜逐渐趋向梦的彼岸，然则肆无忌惮膨胀的欲望与嫉恨也正将她吞没……',`movie_date`='2016-05-20' WHERE ( movie_id=8 ) [ RunTime:0.095277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003996s ]
+
+[ 2017-09-10T14:20:55+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004094s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011394s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.030457s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.013112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006531s ]
+
+[ 2017-09-10T14:21:44+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007998s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010707s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 6  [ RunTime:0.019284s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003096s ]
+
+[ 2017-09-10T14:25:34+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011739s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`=' X-Men: Apocalypse',`movie_photo`='59b4dade61e5d.jpg',`movie_type`='1',`palcetype`=4,`movie_introduce`='变种人天启（奥斯卡·伊萨克 Oscar Isaac 饰）诞生于人类文明的最开端，被人类当做神一般敬仰膜拜，然而，这样的他，却遭到了他最蔑视的人类的背叛，被埋葬于废墟石砾之下，一晃眼就是数千年过去。  　　一场意外使得沉睡千年的天启从混沌中醒来，重返人间的他却发现曾经高贵的变种人，如今境遇十分糟糕。为了创造一个属于变种人的新世界，他找到了暴风女（亚历山德拉·西普 Alexandra Shipp 饰）、灵蝶（奥立薇娅·玛恩 Olivia Munn 饰），天使（本·哈迪 Ben Hardy 饰），还有想要过平凡生活却依旧遭到人类驱逐的万磁王（迈克尔·法斯宾德 Michael Fassbender 饰）组成了天启四骑士。在察觉到天启的动向后，X教授（詹姆斯·麦卡沃伊 James McAvoy 饰）带领着魔形女（詹妮弗·劳伦斯 Jennifer Lawrence 饰）、野兽（尼古拉斯·霍尔特 Nicholas Hoult 饰）和凤凰（索菲·特纳 Sophie Turner 饰）等人，发誓要粉碎天启的阴谋。',`movie_date`='2016-05-27' WHERE ( movie_id=6 ) [ RunTime:0.016118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003287s ]
+
+[ 2017-09-10T14:25:34+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011580s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.023283s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004213s ]
+
+[ 2017-09-10T14:26:17+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.016440s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 9  [ RunTime:0.012188s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002196s ]
+
+[ 2017-09-10T14:26:49+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011619s ]
+NOTIC: [2] finfo_file(): Empty filename or path D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003447s ]
+
+[ 2017-09-10T14:27:35+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003783s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010613s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='X战警：天启',`movie_photo`='59b4db5778285.jpg',`movie_type`='2',`palcetype`=4,`movie_introduce`='变种人天启（奥斯卡·伊萨克 Oscar Isaac 饰）诞生于人类文明的最开端，被人类当做神一般敬仰膜拜，然而，这样的他，却遭到了他最蔑视的人类的背叛，被埋葬于废墟石砾之下，一晃眼就是数千年过去。  　　一场意外使得沉睡千年的天启从混沌中醒来，重返人间的他却发现曾经高贵的变种人，如今境遇十分糟糕。为了创造一个属于变种人的新世界，他找到了暴风女（亚历山德拉·西普 Alexandra Shipp 饰）、灵蝶（奥立薇娅·玛恩 Olivia Munn 饰），天使（本·哈迪 Ben Hardy 饰），还有想要过平凡生活却依旧遭到人类驱逐的万磁王（迈克尔·法斯宾德 Michael Fassbender 饰）组成了天启四骑士。在察觉到天启的动向后，X教授（詹姆斯·麦卡沃伊 James McAvoy 饰）带领着魔形女（詹妮弗·劳伦斯 Jennifer Lawrence 饰）、野兽（尼古拉斯·霍尔特 Nicholas Hoult 饰）和凤凰（索菲·特纳 Sophie Turner 饰）等人，发誓要粉碎天启的阴谋。',`movie_date`='2016-05-27' WHERE ( movie_id=9 ) [ RunTime:0.012705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004212s ]
+
+[ 2017-09-10T14:27:35+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011355s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.023774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.009865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006530s ]
+
+[ 2017-09-10T14:28:17+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011343s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010838s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 10  [ RunTime:0.010454s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014977s ]
+
+[ 2017-09-10T14:29:16+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004525s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010951s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Bad Moms',`movie_photo`='59b4dbbc39864.jpg',`movie_type`='3',`palcetype`=4,`movie_introduce`='一个看起来拥有了完美生活的女人——一个很棒的婚姻、争气的孩子、漂亮的房子、不仅长得美还有一份自己的职业。然而由于长时间工作过度、计划过多，她被折磨的筋疲力尽。忍无可忍，她与另外两名压力过大的母亲加入军队，将自己从传统的社会关系中解放出来。在野外，她们加入PTA女王蜂格林多温的课程，寻找自由、乐趣和自我放纵……',`movie_date`='2016-10-20' WHERE ( movie_id=10 ) [ RunTime:0.013931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004246s ]
+
+[ 2017-09-10T14:29:16+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004008s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010557s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.022496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006203s ]
+
+[ 2017-09-10T14:29:35+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012497s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011086s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 6  [ RunTime:0.011171s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007772s ]
+
+[ 2017-09-10T14:30:40+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.010779s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='The Boss',`movie_photo`='59b4dc10ce2ac.jpg',`movie_type`='1',`palcetype`=4,`movie_introduce`='A titan of industry is sent to prison after she\'s caught insider trading. When she emerges ready to rebrand herself as America\'s latest sweetheart, not everyone she screwed over is so quick to forgive and forget.',`movie_date`='2016-04-08' WHERE ( movie_id=6 ) [ RunTime:0.012501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003261s ]
+
+[ 2017-09-10T14:30:41+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012204s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.023703s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004387s ]
+
+[ 2017-09-10T14:31:26+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006363s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011690s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 11  [ RunTime:0.021878s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006762s ]
+
+[ 2017-09-10T14:31:58+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003580s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013034s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='War on Everyone',`movie_photo`='59b4dc5e3465e.jpg',`movie_type`='4',`palcetype`=4,`movie_introduce`='泰瑞和鲍勃是新墨西哥两名无赖、腐败警察，靠勒索犯罪份子牟利。一次，欲通过雷吉谋取100万，不料黑道老大摩根黑吃黑卷走80万。泰瑞和鲍勃向摩根恐吓索求80万，又不料被摩根动用关系将二人踢出警局。接着，泰瑞、鲍勃杀向摩根老巢，一场西部牛仔式的枪战上演……',`movie_date`='2016-02-12' WHERE ( movie_id=11 ) [ RunTime:0.015032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003958s ]
+
+[ 2017-09-10T14:31:58+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003665s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013902s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.019740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.008719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005625s ]
+
+[ 2017-09-10T14:33:53+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017768s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.016020s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 21  [ RunTime:0.021095s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000818s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006787s ]
+
+[ 2017-09-10T14:34:51+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005470s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011668s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='谍影重重5',`movie_photo`='59b4dd0bbf96e.jpg',`movie_type`='4',`palcetype`=4,`movie_introduce`='《谍影重重5》故事背景设定在后斯诺登时代，讲述了杰森·伯恩在寻找着关于自己身世的时候发现惊天的阴谋，再次现身展开斗争的故事。',`movie_date`='2016-07-29' WHERE ( movie_id=21 ) [ RunTime:0.033509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004384s ]
+
+[ 2017-09-10T14:34:52+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006042s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012343s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.020722s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.009888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008024s ]
+
+[ 2017-09-10T14:35:53+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008043s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013715s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 12  [ RunTime:0.009750s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005173s ]
+
+[ 2017-09-10T14:37:47+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011421s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013792s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 12  [ RunTime:0.020556s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006564s ]
+
+[ 2017-09-10T14:38:42+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013968s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='美国队长3',`movie_photo`='59b4ddf29fc1e.jpg',`movie_type`='1',`palcetype`=5,`movie_introduce`='美国队长史蒂夫·罗杰斯带领着全新组建的复仇者联盟，继续维护世界和平。然而，一次执行任务时联盟成员不小心造成大量平民伤亡，从而激发政治压力，政府决定通过一套监管系统来管理和领导复仇者联盟。联盟内部因此分裂为两派——一方由史蒂夫·罗杰斯领导，他主张维护成员自由，在免受政府干扰的情况下保护世界；另一方则追随托尼·斯塔克，他令人意外地决定支持政府的监管和责任制体系。神秘莫测的巴基似乎成为内战的关键人物……',`movie_date`='2016-05-06' WHERE ( movie_id=12 ) [ RunTime:0.016763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003952s ]
+
+[ 2017-09-10T14:38:43+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.014899s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.025783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005865s ]
+
+[ 2017-09-10T14:39:31+08:00 ] ::1 /thinkphp-3.2/admin/movie/Moviedel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012611s ]
+SQL: DELETE FROM `movie` WHERE `movie_id` = 25 [ RunTime:0.013613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003295s ]
+
+[ 2017-09-10T14:39:31+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.011889s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.023130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005305s ]
+
+[ 2017-09-10T14:40:06+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.019782s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 12  [ RunTime:0.019405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007628s ]
+
+[ 2017-09-10T14:41:02+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003566s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.020586s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='美国队长3',`movie_photo`='59b4de7eb5656.jpg',`movie_type`='1',`palcetype`=5,`movie_introduce`='一方由史蒂夫·罗杰斯领导，他主张维护成员自由，在免受政府干扰的情况下保护世界；另一方则追随托尼·斯塔克，他令人意外地决定支持政府的监管和责任制体系。神秘莫测的巴基似乎成为内战的关键人物……',`movie_date`='2016-05-06' WHERE ( movie_id=12 ) [ RunTime:0.012494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004012s ]
+
+[ 2017-09-10T14:41:03+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004233s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.017447s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.040730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.010751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005493s ]
+
+[ 2017-09-10T14:41:21+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007220s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.013109s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 13  [ RunTime:0.011529s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003335s ]
+
+[ 2017-09-10T14:43:13+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.021182s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='Cawdor',`movie_photo`='59b4df01dc686.jpg',`movie_type`='2',`palcetype`=5,`movie_introduce`='In this tense tale of psychological terror, Vivian Miller (Shelby Young) is a young twenties woman who\'s serving out her jail sentence at a work release program in the Midwest. Her 90 days of probation takes her to The Cawdor Barn Theatre',`movie_date`='2015-09-04' WHERE ( movie_id=13 ) [ RunTime:0.034817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003487s ]
+
+[ 2017-09-10T14:43:14+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.016315s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.039651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.015568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004456s ]
+
+[ 2017-09-10T14:43:55+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010545s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007532s ]
+
+[ 2017-09-10T14:45:17+08:00 ] ::1 /thinkphp-3.2/admin/movie/addMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003677s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.023640s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `movie` (`palcetype`,`movie_name`,`movie_photo`,`movie_type`,`movie_introduce`,`movie_date`) VALUES (5,'招魂','59b4df7d66cd5.jpg','2','该片讲述了佩龙一家1971年搬进了一栋他们朝思暮想的房子里，房子座落在田园风光的罗德岛上，风景优美。然而一系列惊悚的事情接连发生，家里狗的离奇死亡，半夜孩子们被吓醒呼救。这栋房子变成他们的噩梦，十年后，每个人都变得魂不守舍，最终决定搬离罗德岛。','2013-07-19') [ RunTime:0.024892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003903s ]
+
+[ 2017-09-10T14:45:17+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.012551s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.041038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.011757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007769s ]
+
+[ 2017-09-10T14:45:58+08:00 ] ::1 /thinkphp-3.2/admin/movie/movieEdit?edit_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009648s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.022526s ]
+SQL: SELECT * FROM `movie` WHERE `movie_id` = 30  [ RunTime:0.019529s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/temp/head.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+NOTIC: [2] file_get_contents(Public/temp/foot.html): failed to open stream: No such file or directory D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Template.class.php 第 692 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003083s ]
+
+[ 2017-09-10T14:46:28+08:00 ] ::1 /thinkphp-3.2/admin/movie/updateMovie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003016s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.016359s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `movie` SET `movie_name`='招魂',`movie_photo`='59b4dfc4400e2.jpg',`movie_type`='2',`palcetype`=5,`movie_introduce`='该片讲述了佩龙一家1971年搬进了一栋他们朝思暮想的房子里，房子座落在田园风光的罗德岛上，风景优美。然而一系列惊悚的事情接连发生，家里狗的离奇死亡，半夜孩子们被吓醒呼救。这栋房子变成他们的噩梦',`movie_date`='2013-07-19' WHERE ( movie_id=30 ) [ RunTime:0.014939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003606s ]
+
+[ 2017-09-10T14:46:28+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.017823s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.053034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.016477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007054s ]
+
+[ 2017-09-10T15:33:27+08:00 ] ::1 /thinkphp-3.2/admin/movie/MovieList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002963s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `movie` [ RunTime:0.015418s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `movie`  [ RunTime:0.071989s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `movie` LIMIT 1   [ RunTime:0.022843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003159s ]
+
+[ 2017-09-10T15:33:32+08:00 ] ::1 /thinkphp-3.2/admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.032055s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.030050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.013679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2017-09-10T15:33:34+08:00 ] ::1 /thinkphp-3.2/admin/word/wordshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM word as a [ RunTime:0.011275s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM word as a
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM word as a left join user as b on a.user_id=b.user_id left join movie as c on a.movie_id=c.movie_id   [ RunTime:0.066006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM word as a LIMIT 1   [ RunTime:0.062625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2017-09-10T15:33:37+08:00 ] ::1 /thinkphp-3.2/admin/AdminManage/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002781s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.114309s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\HTML5\thinkphp-3.2\ThinkPHP\Library\Think\Db.class.php 第 423 行.
+SQL: SELECT * FROM `admin`  [ RunTime:0.026822s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.030328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
