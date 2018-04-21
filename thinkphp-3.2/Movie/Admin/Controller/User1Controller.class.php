@@ -4,8 +4,8 @@ use Think\Controller;
 class WordController extends Controller {
     //显示评论
     public function wordShow(){
-      	/*$User=M('word as a');
-          //多表联查
+      	$User=M('word as a');
+      	//多表联查
       	$result=$User->join('left join user as b on a.user_id=b.user_id')->join('left join movie as c on a.movie_id=c.movie_id')->where(1)->select();
       	// echo $result;
     	// $result=$User->where(1)->select();
@@ -14,15 +14,7 @@ class WordController extends Controller {
     	$this->assign("wordCount",$count);
     	//管理员的登录名
     	$this->assign("wordInfor",$result);
-        $this->display("feedback-list");*/
-        $User=M('user');
-        $result=$User->where(1)->select();
-        //统计数据的条数
-        $count=$User->count();
-        $this->assign("userCount",$count);
-        //管理员的登录名
-        $this->assign("userInfor",$result); 
-        $this->display("feedback-list");
+        $this->display("user-list");
     }
 
     //删除操作

@@ -106,7 +106,7 @@ $(function(){
                 	  $("#shu").html("输入正确").css("color","green");
                      	$.ajax({
 			type: 'POST',
-			url: 'http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/addUser',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/addUser',
 			data: {adminName:adminName,password:password,phone:phone},
 			dataType: 'json',
 			success: function(res){

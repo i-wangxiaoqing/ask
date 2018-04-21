@@ -12,11 +12,11 @@
 <script type="text/javascript" src="lib/html5shiv.js"></script>
 <script type="text/javascript" src="lib/respond.min.js"></script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="/hongsanzu/thinkphp-3.2/Public/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="/hongsanzu/thinkphp-3.2/Public/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="/hongsanzu/thinkphp-3.2/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="/hongsanzu/thinkphp-3.2/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="/hongsanzu/thinkphp-3.2/Public/static/h-ui.admin/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/hongsanzu/ask/thinkphp-3.2/Public/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/hongsanzu/ask/thinkphp-3.2/Public/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="/hongsanzu/ask/thinkphp-3.2/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="/hongsanzu/ask/thinkphp-3.2/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="/hongsanzu/ask/thinkphp-3.2/Public/static/h-ui.admin/css/style.css" />
 <!--[if IE 6]>
 <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
@@ -27,12 +27,12 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 管理员列表 <a class="btn-refresh btn btn-success radius r" style="line-height:1.6em;margin-top:3px" onclick="refresh()" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="text-c">
-	<form action="http://localhost:8081/hongsanzu/thinkphp-3.2/admin/adminManage/searchManage" method="post">
+	<form action="http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/adminManage/searchManage" method="post">
 		<input type="text" class="input-text" style="width:250px" placeholder="输入管理员名称" id="inputname" name="inputname">
 		<button  class="btn btn-success" id="search" name=""><i class="Hui-iconfont">&#xe665;</i> 搜管理员</button>
 	</form>
 	</div>
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="admin_add('添加管理员','http://localhost:8081/hongsanzu/thinkphp-3.2/admin/AdminManage/manageAdd','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加管理员</a></span> <span class="r">共有数据：<strong>{$adminCount}</strong> 条</span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="admin_add('添加管理员','http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/AdminManage/manageAdd','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加管理员</a></span> <span class="r">共有数据：<strong>{$adminCount}</strong> 条</span> </div>
 	<table class="table table-border table-bordered table-bg">
 		<thead>
 			<tr>
@@ -43,10 +43,7 @@
 				<th width="40">ID</th>
 				<th width="150">管理员</th>
 				<th width="200">账号</th>
-				<!-- <th width="90">手机</th> -->
-				<!-- <th width="150">邮箱</th> -->
 				<th>角色</th>
-				<!-- <th width="130">加入时间</th> -->
 				<th width="100">是否已启用</th>
 				<th width="100">操作</th>
 			</tr>
@@ -58,27 +55,24 @@
 					<td>{$item.admin_id}</td>
 					<td>{$item.admin_name}</td>
 					<td>{$item.admin_account} </td>
-					<!-- <td>13000000000</td> -->
-					<!-- <td>admin@mail.com</td> -->
 					<td>超级管理员</td>
-					<!-- <td>2014-6-11 11:11:42</td> -->
 					<td class="td-status"><span class="label label-success radius">已启用</span></td>
-					<td class="td-manage"> <a title="编辑" href="javascript:;" onclick="admin_edit('管理员编辑','http://localhost:8081/hongsanzu/thinkphp-3.2/admin/adminManage/manageEdit?edit_id={$item.admin_id}',{$item.admin_id},'800','300')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_del(this,{$item.admin_id})" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td class="td-manage"> <a title="编辑" href="javascript:;" onclick="admin_edit('管理员编辑','http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/adminManage/manageEdit?edit_id={$item.admin_id}',{$item.admin_id},'800','300')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_del(this,{$item.admin_id})" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
 				</Volist>
 		</tbody>
 	</table>
 </div>
 <!--_footer 作为公共模版分离出去-->
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/lib/layer/2.4/layer.js"></script>
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/static/h-ui/js/H-ui.min.js"></script> 
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/static/h-ui/js/H-ui.min.js"></script> 
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
 
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
-<script type="text/javascript" src="/hongsanzu/thinkphp-3.2/Public/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="/hongsanzu/ask/thinkphp-3.2/Public/lib/laypage/1.2/laypage.js"></script>
 <script type="text/javascript">
 /*
 	参数解释：
@@ -98,7 +92,7 @@ function admin_del(obj,id){
 		// alert(id);
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost:8081/hongsanzu/thinkphp-3.2/admin/adminManage/managedel',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/adminManage/managedel',
 			data:{del_id:id},
 			dataType: 'json',
 			success: function(data){
@@ -161,7 +155,7 @@ function datadel(){
 
 		$.ajax({  
              type: "POST",  
-             url: "http://localhost:8081/hongsanzu/thinkphp-3.2/admin/adminManage/allDel",  
+             url: "http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/adminManage/allDel",  
              data: {checkArray:checkArray},  
              dataType: "json",  
              success: function(data){  

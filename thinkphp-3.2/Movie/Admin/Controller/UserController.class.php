@@ -5,7 +5,7 @@ class UserController extends Controller {
 // 	// http://localhost/php/0901/thinkphp-3.2/index.php?m=admin&c=index&a=test
 // 	// m:模块   c:控制器    a:方法
     public function UserList(){
-    	$User=M('user');
+    	$User=M('question');
     	$result=$User->where(1)->select();
     	//统计数据的条数
     	$count=$User->count();
@@ -29,7 +29,7 @@ class UserController extends Controller {
     	$array=[];
     	if (isset($_POST['del_id'])) {
     		$del_id=$_POST['del_id'];
-    		$User=M("user");
+    		$User=M("question");
     		$array['user_id']=$del_id;
     	    $result=$User->where($array)->delete();
     	    if ($result==1) {

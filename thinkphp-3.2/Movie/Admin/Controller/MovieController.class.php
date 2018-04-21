@@ -5,7 +5,7 @@ class MovieController extends Controller {
 // 	// http://localhost/php/0901/thinkphp-3.2/index.php?m=admin&c=index&a=test
 // 	// m:模块   c:控制器    a:方法
     public function MovieList(){
-    	$User=M('movie');
+    	$User=M('question');
     	$result=$User->where(1)->select();
     	//统计数据的条数
     	$count=$User->count();
@@ -25,14 +25,18 @@ class MovieController extends Controller {
             // echo 111;
     
     }
+    //修改界面
+    public function EditMovie(){
+       
+    }
 
     //删除操作
     public function MovieDel(){
     	$array=[];
     	if (isset($_POST['del_id'])) {
     		$del_id=$_POST['del_id'];
-    		$User=M("movie");
-    		$array['movie_id']=$del_id;
+    		$User=M("question");
+    		$array['question_id']=$del_id;
     	    $result=$User->where($array)->delete();
     	    if ($result==1) {
     	    	$array['state']=1;
@@ -102,29 +106,29 @@ class MovieController extends Controller {
 		    }
     }
 
-    //修改管理员界面信息
+    //修改抢答信息
     public function MovieEdit(){
     	$array=[];
         $edit_id=$_GET['edit_id'];
         // var_dump($edit_id);
-        $User=M("movie");
-        $array['movie_id']=$edit_id;
+        $User=M("question");
+        $array['question_id']=$edit_id;
         $result=$User->where($array)->select();
         $this->assign("userInfo",$result);
     	$this->display("movie-update");
 
     }
-    //修改管理员信息
+    //修改抢答员信息
     public function updateMovie(){
     	
 
     	$array=[];
-    	$User=M("movie");
-    	 $id=$_POST['num'];
-         $name=$_POST['name'];
-        $palcetype=$_POST['palcetype'];
-         $introduce=$_POST['introduce'];
-         $date=$_POST['date'];
+    	$User=M("question");
+    	 $id=$_POST['question_id'];
+         $name=$_POST['question_name'];
+        $palcetype=$_POST['question_title'];
+         $introduce=$_POST['question_type'];
+         $date=$_POST['question_answer'];
           $type=$_POST['type'];
 
          $upload = new \Think\Upload();// 实例化上传类
@@ -138,13 +142,13 @@ class MovieController extends Controller {
             $this->error($upload->getError());
          }else{
              foreach($info as $file){
-                   $array['movie_name']=$name;
-                   $array['movie_photo']=$file['savepath'].$file['savename'];
-                   $array['movie_type']=$type;
-                    $array['palcetype']=$palcetype;
-                    $array['movie_introduce']=$introduce;
-                     $array['movie_date']=$date;
-                   $result=$User->where('movie_id='.$id.'')->save($array);
+                   $array['question_name']=$name;
+                   $array['question_photo']=$file['savepath'].$file['savename'];
+                   $array['question_title']=  $palcetype;
+                    $array['question_type']=   $introduce;
+                    $array['movie_answer']=$date;
+/*                     $array['movie_date']=$date;
+*/                   $result=$User->where('movie_id='.$id.'')->save($array);
                    echo "<script>function refresh(){
                                        var index = parent.layer.getFrameIndex(window.name
 

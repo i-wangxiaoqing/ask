@@ -27,18 +27,18 @@
 		height: 150px;
 	}
 </style>
-<title>用户列表</title>
+<title>抢答列表</title>
 </head>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 抢答用户管理 <span class="c-gray en">&gt;</span> 用户列表 <a class="btn-refresh btn btn-success radius r" style="line-height:1.6em;margin-top:3px" onclick="refresh()" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 抢答管理 <span class="c-gray en">&gt;</span> 抢答列表 <a class="btn-refresh btn btn-success radius r" style="line-height:1.6em;margin-top:3px" onclick="refresh()" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="text-c">
-	<form action="http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/searchUser" method="post">
+	<form action="http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/searchUser" method="post">
 		<input type="text" class="input-text" style="width:250px" placeholder="请输入用户名称" id="inputname" name="inputname">
 		<button  class="btn btn-success" id="search" name=""><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
 	</form>
 	</div>
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="movie_add('添加会员','http://localhost:8081/hongsanzu/thinkphp-3.2/admin/movie/MovieAdd','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r">共有数据：<strong><?php echo ($adminCount); ?></strong> 条</span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <!-- <a href="javascript:;" onclick="movie_add('添加会员','http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/movie/MovieAdd','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加抢答</a> --></span> <span class="r">共有数据：<strong><?php echo ($adminCount); ?></strong> 条</span> </div>
 	<table class="table table-border table-bordered table-bg">
 		<thead>
 			<tr>
@@ -47,29 +47,32 @@
 			<tr class="text-c">
 				<th width="25"><input type="checkbox" name="" value=""></th>
 				<th width="40">ID</th>
-				<th width="40">用户名称</th>
-				<th width="30">问题类型</th>
-				<th width="80">问题内容</th>
-				<th width="50">？？？？</th>
-				<th width="40">？？？</th>
-				<th width="40">头像</th>
-				<th width="20">？？？</th>
+				<th width="60">用户名称</th>
+				<th width="60">用户头像</th>
+				<th width="140">问题内容</th>
+				<th width="50">问题类型</th>
+				<th width="40">问题答案</th>
+				<th width="60">A</th>
+				<th width="60">B</th>
+				<th width="60">C</th>
 				<th width="100">操作</th>
 			</tr>
 		</thead>
 		<tbody>
 			<?php if(is_array($userInfor)): $i = 0; $__LIST__ = $userInfor;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><tr class="text-c">
-					<td><input type="checkbox" value="<?php echo ($item["movie_id"]); ?>" name=""  class="use"></td>
-					<td><?php echo ($item["movie_id"]); ?></td>
-					<td><?php echo ($item["movie_name"]); ?></td>
-					<td><?php echo ($item["movie_type"]); ?></td>
-					<td><?php echo ($item["movie_introduce"]); ?></td>
-					<td><?php echo ($item["movie_date"]); ?></td>
-					<td><?php echo ($item["movie_photo"]); ?></td>
-
-					<td><img src="http://localhost:8081/hongsanzu/thinkphp-3.2/Public/images/<?php echo ($item["movie_photo"]); ?>"></td>
-				<td><?php echo ($item["palcetype"]); ?></td>
-					<td class="td-manage"> <a title="编辑" href="javascript:;" onclick="movie_edit('用户编辑','http://localhost:8081/hongsanzu/thinkphp-3.2/admin/movie/movieEdit?edit_id=<?php echo ($item["movie_id"]); ?>','800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;编辑</i></a> <a title="删除" href="javascript:;" onclick="movie_del(this,<?php echo ($item["movie_id"]); ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;删除</i></a></td>
+					<td><input type="checkbox" value="<?php echo ($item["question_id"]); ?>" name=""  class="use"></td>
+			                      <td><?php echo ($item["question_id"]); ?></td>
+					  <td><?php echo ($item["palcetype"]); ?></td>
+					<td><img src="http://localhost:8081/hongsanzu/ask/thinkphp-3.2/Public/images/<?php echo ($item["movie_photo"]); ?>"></td>
+				        
+					<td><?php echo ($item["question_title"]); ?></td>
+					<td><?php echo ($item["question_type"]); ?></td>
+					<td><?php echo ($item["question_answer"]); ?></td>
+					<td><?php echo ($item["A"]); ?></td>
+					<td><?php echo ($item["B"]); ?></td>
+                                                     <td><?php echo ($item["C"]); ?></td>
+				
+					<td class="td-manage"> <a title="编辑" href="javascript:;" onclick="movie_edit('用户编辑','http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/movie/movieEdit?edit_id=<?php echo ($item["question_id"]); ?>','800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;编辑</i></a> <a title="删除" href="javascript:;" onclick="movie_del(this,<?php echo ($item["question_id"]); ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;删除</i></a></td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 		</tbody>
 	</table>
@@ -103,7 +106,7 @@ function movie_del(obj,id){
 		// alert(id);
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost:8081/hongsanzu/thinkphp-3.2/admin/movie/Moviedel',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/movie/Moviedel',
 			data:{del_id:id},
 			dataType: 'json',
 			success: function(data){
@@ -152,7 +155,7 @@ function movie_stop(obj,id){
                var  obj=$('.use').eq(i);
                $.ajax({
 			type: 'POST',
-			url: 'http://localhost:8081/hongsanzu/thinkphp-3.2/admin/movie/Moviedel',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/movie/Moviedel',
 			data:{del_id:id},
 			dataType: 'json',
 			success: function(data){

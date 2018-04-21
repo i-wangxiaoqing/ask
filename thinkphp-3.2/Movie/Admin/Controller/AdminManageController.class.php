@@ -49,7 +49,7 @@ class AdminManageController extends Controller {
     	$array=[];
     	if (isset($_POST['adminName'])&&isset($_POST['password'])) {
     		$array['admin_name']=$_POST['adminName'];
-	    	$array['admin_pass']=$_POST['password'];
+	    	$array['admin_password']=$_POST['password'];
             $array['admin_account']=$_POST['adminAccount'];
 	    	$User=M("admin");
 	        $result=$User->data($array)->add();

@@ -81,26 +81,26 @@
 		</dd>
 	</dl> -->
 		<dl id="menu-picture">
-			<dt><i class="Hui-iconfont">&#xe613;</i> 抢答用户管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe613;</i> 抢答管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="../movie/MovieList" data-title="用户管理" href="javascript:void(0)">用户管理</a></li>
+					<li><a data-href="../movie/MovieList" data-title="用户管理" href="javascript:void(0)">抢答管理</a></li>
 			</ul>
 		</dd>
 
 		<dl id="menu-comments">
-			<dt><i class="Hui-iconfont">&#xe622;</i> 抢答问题管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe622;</i> 用户管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="../word/wordshow" data-title="问题管理" href="javascript:;">问题管理</a></li>
+					<li><a data-href="../word/wordshow" data-title="问题管理" href="javascript:;">用户管理</a></li>
 			</ul>
 		</dd>
 	</dl>
 		<dl id="menu-member">
-			<dt><i class="Hui-iconfont">&#xe60d;</i> 抢答排名管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe60d;</i> 问题管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="../user/userList" data-title="会员列表" href="javascript:;">排名管理</a></li>
+					<li><a data-href="../user/userList" data-title="会员列表" href="javascript:;">问题管理</a></li>
 			</ul>
 		</dd>
 	</dl>

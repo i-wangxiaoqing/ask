@@ -1,0 +1,24 @@
+[ 2018-04-18T10:17:32+08:00 ] ::1 /hongsanzu/ask/thinkphp-3.2/home/admin?action=passwd&password1=admin&password2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] file_get_contents(/tp/public/db/config.db): failed to open stream: No such file or directory F:\kefangwen\hongsanzu\ask\thinkphp-3.2\Movie\Runtime\Cache\Home\65b158624d94b15633c13ec53ebf84e9.php 第 1 行.
+NOTIC: [8] Undefined index: PHP_AUTH_USER F:\kefangwen\hongsanzu\ask\thinkphp-3.2\Movie\Runtime\Cache\Home\65b158624d94b15633c13ec53ebf84e9.php 第 1 行.
+NOTIC: [8] Undefined index: PHP_AUTH_PW F:\kefangwen\hongsanzu\ask\thinkphp-3.2\Movie\Runtime\Cache\Home\65b158624d94b15633c13ec53ebf84e9.php 第 1 行.
+NOTIC: [8] Undefined variable: msg F:\kefangwen\hongsanzu\ask\thinkphp-3.2\Movie\Runtime\Cache\Home\65b158624d94b15633c13ec53ebf84e9.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+

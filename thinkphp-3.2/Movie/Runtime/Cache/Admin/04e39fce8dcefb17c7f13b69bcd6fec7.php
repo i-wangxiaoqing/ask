@@ -27,36 +27,44 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 抢答排行管理 <span class="c-gray en">&gt;</span> 排行列表 <a class="btn-refresh btn btn-success radius r" style="line-height:1.6em;margin-top:3px" onclick="refresh()" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="text-c">
-	<form action="http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/searchUser" method="post">
+	<form action="http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/searchUser" method="post">
 		<input type="text" class="input-text" style="width:250px" placeholder="输入会员名称" id="inputname" name="inputname">
 		<button  class="btn btn-success" id="search" name=""><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
 	</form>
 	</div>
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="user_add('添加会员','http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/UserAdd','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加会员</a></span> <span class="r">共有数据：<strong><?php echo ($adminCount); ?></strong> 条</span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="user_add('添加会员','http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/UserAdd','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加问题</a></span> <span class="r">共有数据：<strong><?php echo ($adminCount); ?></strong> 条</span> </div>
 	<table class="table table-border table-bordered table-bg">
 		<thead>
 			<tr>
-				<th scope="col" colspan="9">员工列表</th>
+				<th scope="col" colspan="9">问题列表</th>
 			</tr>
 			<tr class="text-c">
-				<th width="25"><input type="checkbox" name="" value=""></th>
+                                          <th width="25"><input type="checkbox" name="" value=""></th>
 				<th width="40">ID</th>
-				<th width="150">登录名</th>
-				<th width="90">手机</th>
-				
-				
+				<th width="60">问题内容</th>
+				<th width="60">问题类型</th>
+				<th width="40">问题答案</th>
+				<th width="60">A</th>
+				<th width="60">B</th>
+				<th width="60">C</th>
 				<th width="100">操作</th>
 			</tr>
 		</thead>
 		<tbody>
 			<?php if(is_array($userInfor)): $i = 0; $__LIST__ = $userInfor;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><tr class="text-c">
-					<td><input type="checkbox" value="<?php echo ($item["user_id"]); ?>" name=""  class="use"></td>
-					<td><?php echo ($item["user_id"]); ?></td>
-					<td><?php echo ($item["user_name"]); ?></td>
-					<td><?php echo ($item["user_phone"]); ?></td>
+				
+
+					<td><input type="checkbox" value="<?php echo ($item["question_id"]); ?>" name=""  class="use"></td>
+			                      <td><?php echo ($item["question_id"]); ?></td>
+					 <td><?php echo ($item["question_title"]); ?></td>
+					 <td><?php echo ($item["question_type"]); ?></td>
+					<td><?php echo ($item["question_answer"]); ?></td>
+					<td><?php echo ($item["A"]); ?></td>
+					<td><?php echo ($item["B"]); ?></td>
+                                                     <td><?php echo ($item["C"]); ?></td>
 					
 					
-					<td class="td-manage"> <a title="编辑" href="javascript:;" onclick="user_edit('用户编辑','http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/userEdit?edit_id=<?php echo ($item["user_id"]); ?>','800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="user_del(this,<?php echo ($item["user_id"]); ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td class="td-manage"> <a title="编辑" href="javascript:;" onclick="user_edit('用户编辑','http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/userEdit?edit_id=<?php echo ($item["user_id"]); ?>','800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="user_del(this,<?php echo ($item["user_id"]); ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 		</tbody>
 	</table>
@@ -90,7 +98,7 @@ function user_del(obj,id){
 		// alert(id);
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/Userdel',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/Userdel',
 			data:{del_id:id},
 			dataType: 'json',
 			success: function(data){
@@ -139,7 +147,7 @@ function user_stop(obj,id){
                var  obj=$('.use').eq(i);
                $.ajax({
 			type: 'POST',
-			url: 'http://localhost:8081/hongsanzu/thinkphp-3.2/admin/user/Userdel',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/Userdel',
 			data:{del_id:id},
 			dataType: 'json',
 			success: function(data){

@@ -9,10 +9,10 @@
 <article class="page-container">
 	<?php if(is_array($userInfo)): $i = 0; $__LIST__ = $userInfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><form class="form form-horizontal" id="form-admin-add" action="updateMovie" method="post" enctype="multipart/form-data">
 			<div class="row cl">
-				<input class="input-text" value="<?php echo ($item["movie_id"]); ?>" placeholder="" id="num" name="num" type="hidden">
+				<input class="input-text" value="<?php echo ($item["question_id"]); ?>" placeholder="" id="num" name="num" type="hidden">
 				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名称：</label>
 				<div class="formControls col-xs-8 col-sm-9">
-					<input type="text" class="input-text" value="<?php echo ($item["movie_name"]); ?>" placeholder="" id="name" name="name">
+					<input type="text" class="input-text" value="<?php echo ($item["question_name"]); ?>" placeholder="" id="name" name="name">
 				</div>
 			</div>
 			
@@ -31,19 +31,37 @@
 				</div>
 			</div>
 				<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题类型：</label>
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题内容：</label>
 				<div class="formControls col-xs-8 col-sm-9">
-					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_type"]); ?>"  placeholder="" id="type" name="type">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["question_type"]); ?>"  placeholder="" id="type" name="type">
 				</div>
 			</div>
 			<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题内容：</label>
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题类型：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_introduce"]); ?>"  placeholder="" id="introduce" name="introduce">
 				</div>
 			</div>
-				<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>上映日期：</label>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>问题答案：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_date"]); ?>"  placeholder="" id="date" name="date">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>A：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_date"]); ?>"  placeholder="" id="date" name="date">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>B：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_date"]); ?>"  placeholder="" id="date" name="date">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>C：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<input type="text" class="input-text" autocomplete="off" value="<?php echo ($item["movie_date"]); ?>"  placeholder="" id="date" name="date">
 				</div>

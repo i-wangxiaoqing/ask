@@ -83,7 +83,7 @@ $(function(){
 		 // alert(adminP);
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost/thinkphp-3.2/admin/user/updateUser',
+			url: 'http://localhost:8081/hongsanzu/ask/thinkphp-3.2/admin/user/updateUser',
 			data: {adminId:adminId,adminName:adminName,adminPass:adminPass,adminPhone:adminPhone},
 			dataType: 'json',
 			success: function(res){
